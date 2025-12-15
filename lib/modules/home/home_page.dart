@@ -115,13 +115,17 @@ class _HomePageState extends State<HomePage> {
           'Crash 测试',
           Icons.bug_report,
           Colors.red,
-          () => throw Exception('Crash Test Button'),
+          () {
+            AnalyticsService.logEvent('feature_crash_test');
+            throw Exception('Crash Test Button');
+          },
         ),
         _buildFeatureButton(
           '网络请求',
           Icons.cloud,
           Colors.blue,
           () async {
+            AnalyticsService.logEvent('feature_network_post');
             final response = await ApiService().postData({'test': 'data'});
             if (mounted) {
               ScaffoldMessenger.of(context).showSnackBar(
@@ -134,49 +138,73 @@ class _HomePageState extends State<HomePage> {
           'Mock 支付',
           Icons.payment,
           Colors.green,
-          () => PaymentService.showPaymentDialog(context, '支付宝', 9.9),
+          () {
+            AnalyticsService.logEvent('feature_payment_mock');
+            PaymentService.showPaymentDialog(context, '支付宝', 9.9);
+          },
         ),
         _buildFeatureButton(
           '地图 Demo',
           Icons.map,
           Colors.orange,
-          () => Navigator.push(context, MaterialPageRoute(builder: (_) => MapDemoPage())),
+          () {
+            AnalyticsService.logEvent('feature_map_demo');
+            Navigator.push(context, MaterialPageRoute(builder: (_) => MapDemoPage()));
+          },
         ),
         _buildFeatureButton(
           '扫码 Demo',
           Icons.qr_code_scanner,
           Colors.purple,
-          () => Navigator.push(context, MaterialPageRoute(builder: (_) => ScanDemoPage())),
+          () {
+            AnalyticsService.logEvent('feature_scan_demo');
+            Navigator.push(context, MaterialPageRoute(builder: (_) => ScanDemoPage()));
+          },
         ),
         _buildFeatureButton(
           '分享 Demo',
           Icons.share,
           Colors.teal,
-          () => Navigator.push(context, MaterialPageRoute(builder: (_) => ShareDemoPage())),
+          () {
+            AnalyticsService.logEvent('feature_share_demo');
+            Navigator.push(context, MaterialPageRoute(builder: (_) => ShareDemoPage()));
+          },
         ),
         _buildFeatureButton(
           '截图 Demo',
           Icons.camera_alt,
           Colors.indigo,
-          () => Navigator.push(context, MaterialPageRoute(builder: (_) => ScreenshotDemoPage())),
+          () {
+            AnalyticsService.logEvent('feature_screenshot_demo');
+            Navigator.push(context, MaterialPageRoute(builder: (_) => ScreenshotDemoPage()));
+          },
         ),
         _buildFeatureButton(
           '主题/语言',
           Icons.palette,
           Colors.pink,
-          () => Navigator.push(context, MaterialPageRoute(builder: (_) => ThemeLanguageDemoPage())),
+          () {
+            AnalyticsService.logEvent('feature_theme_language');
+            Navigator.push(context, MaterialPageRoute(builder: (_) => ThemeLanguageDemoPage()));
+          },
         ),
         _buildFeatureButton(
           '权限申请',
           Icons.security,
           Colors.amber,
-          () => Navigator.push(context, MaterialPageRoute(builder: (_) => PermissionDemoPage())),
+          () {
+            AnalyticsService.logEvent('feature_permission_demo');
+            Navigator.push(context, MaterialPageRoute(builder: (_) => PermissionDemoPage()));
+          },
         ),
         _buildFeatureButton(
           '设置',
           Icons.settings,
           Colors.grey,
-          () => context.router.push(const SettingsRoute()),
+          () {
+            AnalyticsService.logEvent('feature_settings');
+            context.router.push(const SettingsRoute());
+          },
         ),
       ],
     );
