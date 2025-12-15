@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Flutter Universal Demo"
+    },
+    {
+      "name": "camera_permission_reason",
+      "value": "需要相机权限用于扫描二维码功能"
+    },
+    {
+      "name": "location_permission_reason",
+      "value": "需要定位权限用于地图和导航功能"
+    },
+    {
+      "name": "location_background_permission_reason",
+      "value": "需要后台定位权限用于持续获取位置信息"
+    },
+    {
+      "name": "read_media_permission_reason",
+      "value": "需要读取媒体权限用于访问设备上的媒体文件"
+    },
+    {
+      "name": "write_media_permission_reason",
+      "value": "需要写入媒体权限用于保存截图和文件"
+    },
+    {
+      "name": "read_imagevideo_permission_reason",
+      "value": "需要读取图片视频权限用于访问设备上的图片和视频"
+    },
+    {
+      "name": "write_imagevideo_permission_reason",
+      "value": "需要写入图片视频权限用于保存截图和图片"
+    }
+  ]
+}

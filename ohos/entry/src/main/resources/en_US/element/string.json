@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Flutter Universal Demo"
+    },
+    {
+      "name": "camera_permission_reason",
+      "value": "Camera permission is required for scanning QR codes"
+    },
+    {
+      "name": "location_permission_reason",
+      "value": "Location permission is required for map and navigation features"
+    },
+    {
+      "name": "location_background_permission_reason",
+      "value": "Background location permission is required for continuous location updates"
+    },
+    {
+      "name": "read_media_permission_reason",
+      "value": "Read media permission is required to access media files on the device"
+    },
+    {
+      "name": "write_media_permission_reason",
+      "value": "Write media permission is required to save screenshots and files"
+    },
+    {
+      "name": "read_imagevideo_permission_reason",
+      "value": "Read image/video permission is required to access images and videos on the device"
+    },
+    {
+      "name": "write_imagevideo_permission_reason",
+      "value": "Write image/video permission is required to save screenshots and images"
+    }
+  ]
+}
