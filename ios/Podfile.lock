@@ -50,13 +50,13 @@ SPEC CHECKSUMS:
   AMap3DMap: e67fc1a66bd83b82b44a06b601864d9fb3db3de0
   amap_flutter_map: 6cde084007a3ed06235383d46bc73c6c9a80c1e6
   AMapFoundation: 9885c48fc3a78fdfb84a0299a2293e56ea3c9fec
-  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
   MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
   path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
   permission_handler_apple: 4ed2196e43d0651e8ff7ca3483a069d469701f2d
   qr_code_scanner: d77f94ecc9abf96d9b9b8fc04ef13f611e5a147a
-  share_plus: de6030e33b4e106470e09322d87cf2a4258d2d1d
+  share_plus: 50da8cb520a8f0f65671c6c6a99b3617ed10a58a
 
-PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+PODFILE CHECKSUM: 4f1c12611da7338d21589c0b2ecd6bd20b109694
 
 COCOAPODS: 1.16.2
