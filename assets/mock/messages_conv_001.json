@@ -1,0 +1,92 @@
+[
+  {
+    "id": "msg_001",
+    "conversationId": "conv_001",
+    "senderId": "user_001",
+    "senderName": "张三",
+    "senderAvatar": "https://randomuser.me/api/portraits/men/1.jpg",
+    "type": 0,
+    "content": "你好，在吗？",
+    "timestamp": "2024-01-15T14:20:00Z",
+    "isRead": true
+  },
+  {
+    "id": "msg_002",
+    "conversationId": "conv_001",
+    "senderId": "me",
+    "senderName": "我",
+    "senderAvatar": null,
+    "type": 0,
+    "content": "在的，有什么事吗？",
+    "timestamp": "2024-01-15T14:21:00Z",
+    "isRead": true
+  },
+  {
+    "id": "msg_003",
+    "conversationId": "conv_001",
+    "senderId": "user_001",
+    "senderName": "张三",
+    "senderAvatar": "https://randomuser.me/api/portraits/men/1.jpg",
+    "type": 0,
+    "content": "明天下午有空吗？想找你聊聊项目的事情",
+    "timestamp": "2024-01-15T14:22:00Z",
+    "isRead": true
+  },
+  {
+    "id": "msg_004",
+    "conversationId": "conv_001",
+    "senderId": "me",
+    "senderName": "我",
+    "senderAvatar": null,
+    "type": 0,
+    "content": "可以的，几点？",
+    "timestamp": "2024-01-15T14:23:00Z",
+    "isRead": true
+  },
+  {
+    "id": "msg_005",
+    "conversationId": "conv_001",
+    "senderId": "user_001",
+    "senderName": "张三",
+    "senderAvatar": "https://randomuser.me/api/portraits/men/1.jpg",
+    "type": 0,
+    "content": "下午3点吧，在你公司附近",
+    "timestamp": "2024-01-15T14:25:00Z",
+    "isRead": true
+  },
+  {
+    "id": "msg_006",
+    "conversationId": "conv_001",
+    "senderId": "me",
+    "senderName": "我",
+    "senderAvatar": null,
+    "type": 0,
+    "content": "好的，没问题",
+    "timestamp": "2024-01-15T14:26:00Z",
+    "isRead": true
+  },
+  {
+    "id": "msg_007",
+    "conversationId": "conv_001",
+    "senderId": "user_001",
+    "senderName": "张三",
+    "senderAvatar": "https://randomuser.me/api/portraits/men/1.jpg",
+    "type": 1,
+    "content": "[图片]",
+    "mediaUrl": "https://picsum.photos/400/300?random=1",
+    "timestamp": "2024-01-15T14:28:00Z",
+    "isRead": false
+  },
+  {
+    "id": "msg_008",
+    "conversationId": "conv_001",
+    "senderId": "user_001",
+    "senderName": "张三",
+    "senderAvatar": "https://randomuser.me/api/portraits/men/1.jpg",
+    "type": 0,
+    "content": "好的，我明天过去",
+    "timestamp": "2024-01-15T14:30:00Z",
+    "isRead": false
+  }
+]
+

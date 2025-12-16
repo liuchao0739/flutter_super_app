@@ -1,0 +1,55 @@
+[
+  {
+    "id": "live_001",
+    "title": "游戏直播：王者荣耀排位",
+    "coverUrl": "https://picsum.photos/400/600?random=21",
+    "streamerId": "streamer_001",
+    "streamerName": "游戏主播小A",
+    "streamerAvatar": "https://randomuser.me/api/portraits/men/20.jpg",
+    "viewerCount": 15230,
+    "likeCount": 8230,
+    "isLive": true,
+    "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "tags": ["游戏", "王者荣耀", "直播"]
+  },
+  {
+    "id": "live_002",
+    "title": "美食制作：今晚吃什么",
+    "coverUrl": "https://picsum.photos/400/600?random=22",
+    "streamerId": "streamer_002",
+    "streamerName": "美食达人",
+    "streamerAvatar": "https://randomuser.me/api/portraits/women/21.jpg",
+    "viewerCount": 8230,
+    "likeCount": 4560,
+    "isLive": true,
+    "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "tags": ["美食", "烹饪", "直播"]
+  },
+  {
+    "id": "live_003",
+    "title": "音乐现场：原创歌曲首唱",
+    "coverUrl": "https://picsum.photos/400/600?random=23",
+    "streamerId": "streamer_003",
+    "streamerName": "独立音乐人",
+    "streamerAvatar": "https://randomuser.me/api/portraits/men/22.jpg",
+    "viewerCount": 4520,
+    "likeCount": 2340,
+    "isLive": true,
+    "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    "tags": ["音乐", "原创", "直播"]
+  },
+  {
+    "id": "live_004",
+    "title": "聊天室：深夜情感话题",
+    "coverUrl": "https://picsum.photos/400/600?random=24",
+    "streamerId": "streamer_004",
+    "streamerName": "情感主播",
+    "streamerAvatar": "https://randomuser.me/api/portraits/women/23.jpg",
+    "viewerCount": 2830,
+    "likeCount": 1520,
+    "isLive": true,
+    "streamUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    "tags": ["情感", "聊天", "直播"]
+  }
+]
+

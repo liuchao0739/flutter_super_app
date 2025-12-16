@@ -1,0 +1,323 @@
+[
+  {
+    "id": "prod_001",
+    "name": "iPhone 15 Pro Max 256GB 深空黑色",
+    "description": "Apple iPhone 15 Pro Max，6.7英寸超视网膜XDR显示屏，A17 Pro芯片，钛金属设计，256GB存储",
+    "price": 9999.00,
+    "originalPrice": 10999.00,
+    "imageUrl": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-15-pro-max-deep-purple-titanium_PF_REF?wid=2000&hei=2000&fmt=png-alpha&.v=1693009278906",
+    "imageUrls": [
+      "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-15-pro-max-deep-purple-titanium_PF_REF?wid=2000&hei=2000&fmt=png-alpha&.v=1693009278906"
+    ],
+    "tenantId": "apple_store",
+    "tags": ["手机", "Apple", "5G", "高端"],
+    "status": "on_sale",
+    "salesCount": 15230,
+    "rating": 4.8,
+    "ratingCount": 5230,
+    "skus": [
+      {
+        "id": "sku_001_256",
+        "productId": "prod_001",
+        "specs": {"storage": "256GB", "color": "深空黑色"},
+        "price": 9999.00,
+        "stock": 50
+      },
+      {
+        "id": "sku_001_512",
+        "productId": "prod_001",
+        "specs": {"storage": "512GB", "color": "深空黑色"},
+        "price": 11999.00,
+        "stock": 30
+      }
+    ],
+    "specs": {
+      "屏幕尺寸": "6.7英寸",
+      "处理器": "A17 Pro",
+      "存储": "256GB/512GB/1TB",
+      "颜色": "深空黑色/原色钛金属/白色钛金属/蓝色钛金属"
+    }
+  },
+  {
+    "id": "prod_002",
+    "name": "MacBook Pro 14英寸 M3芯片",
+    "description": "Apple MacBook Pro 14英寸，M3芯片，18GB统一内存，512GB SSD存储",
+    "price": 14999.00,
+    "originalPrice": 15999.00,
+    "imageUrl": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=2000&hei=2000&fmt=png-alpha&.v=1697230830209",
+    "imageUrls": [
+      "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=2000&hei=2000&fmt=png-alpha&.v=1697230830209"
+    ],
+    "tenantId": "apple_store",
+    "tags": ["笔记本", "Apple", "M3", "专业"],
+    "status": "on_sale",
+    "salesCount": 8230,
+    "rating": 4.9,
+    "ratingCount": 3120,
+    "skus": [
+      {
+        "id": "sku_002_18_512",
+        "productId": "prod_002",
+        "specs": {"memory": "18GB", "storage": "512GB", "color": "深空灰色"},
+        "price": 14999.00,
+        "stock": 25
+      },
+      {
+        "id": "sku_002_36_1TB",
+        "productId": "prod_002",
+        "specs": {"memory": "36GB", "storage": "1TB", "color": "深空灰色"},
+        "price": 18999.00,
+        "stock": 15
+      }
+    ],
+    "specs": {
+      "屏幕": "14.2英寸 Liquid Retina XDR",
+      "芯片": "M3",
+      "内存": "18GB/36GB",
+      "存储": "512GB/1TB/2TB"
+    }
+  },
+  {
+    "id": "prod_003",
+    "name": "AirPods Pro (第3代) 主动降噪",
+    "description": "Apple AirPods Pro，主动降噪，空间音频，MagSafe充电盒",
+    "price": 1899.00,
+    "imageUrl": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQD83?wid=2000&hei=2000&fmt=png-alpha&.v=1660803972361",
+    "imageUrls": [
+      "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQD83?wid=2000&hei=2000&fmt=png-alpha&.v=1660803972361"
+    ],
+    "tenantId": "apple_store",
+    "tags": ["耳机", "Apple", "降噪", "无线"],
+    "status": "on_sale",
+    "salesCount": 45230,
+    "rating": 4.7,
+    "ratingCount": 18230,
+    "skus": [
+      {
+        "id": "sku_003_std",
+        "productId": "prod_003",
+        "specs": {"version": "标准版"},
+        "price": 1899.00,
+        "stock": 200
+      }
+    ]
+  },
+  {
+    "id": "prod_004",
+    "name": "小米14 Ultra 徕卡影像旗舰",
+    "description": "小米14 Ultra，徕卡四摄，骁龙8 Gen3，2K屏幕，120W快充",
+    "price": 5999.00,
+    "originalPrice": 6499.00,
+    "imageUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7c6c5c5c5c5c5c5c5c5c5c5c5c5c5c5c.jpg",
+    "imageUrls": [
+      "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7c6c5c5c5c5c5c5c5c5c5c5c5c5c5c5c.jpg"
+    ],
+    "tenantId": "xiaomi_store",
+    "tags": ["手机", "小米", "徕卡", "影像"],
+    "status": "on_sale",
+    "salesCount": 28340,
+    "rating": 4.6,
+    "ratingCount": 12450,
+    "skus": [
+      {
+        "id": "sku_004_12_256",
+        "productId": "prod_004",
+        "specs": {"memory": "12GB", "storage": "256GB", "color": "黑色"},
+        "price": 5999.00,
+        "stock": 100
+      },
+      {
+        "id": "sku_004_16_512",
+        "productId": "prod_004",
+        "specs": {"memory": "16GB", "storage": "512GB", "color": "白色"},
+        "price": 6499.00,
+        "stock": 80
+      }
+    ]
+  },
+  {
+    "id": "prod_005",
+    "name": "Nike Air Max 270 运动鞋",
+    "description": "Nike Air Max 270，经典气垫设计，舒适缓震，多色可选",
+    "price": 899.00,
+    "originalPrice": 1099.00,
+    "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b2010e00e96c/air-max-270-shoes-W27lzZ.png",
+    "imageUrls": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b2010e00e96c/air-max-270-shoes-W27lzZ.png"
+    ],
+    "tenantId": "nike_store",
+    "tags": ["运动鞋", "Nike", "跑步", "休闲"],
+    "status": "on_sale",
+    "salesCount": 15620,
+    "rating": 4.5,
+    "ratingCount": 8230,
+    "skus": [
+      {
+        "id": "sku_005_42_black",
+        "productId": "prod_005",
+        "specs": {"size": "42", "color": "黑色"},
+        "price": 899.00,
+        "stock": 50
+      },
+      {
+        "id": "sku_005_43_white",
+        "productId": "prod_005",
+        "specs": {"size": "43", "color": "白色"},
+        "price": 899.00,
+        "stock": 45
+      },
+      {
+        "id": "sku_005_44_red",
+        "productId": "prod_005",
+        "specs": {"size": "44", "color": "红色"},
+        "price": 899.00,
+        "stock": 40
+      }
+    ]
+  },
+  {
+    "id": "prod_006",
+    "name": "Dyson V15 Detect 无线吸尘器",
+    "description": "Dyson V15 Detect，激光探测技术，60分钟续航，HEPA过滤",
+    "price": 4990.00,
+    "originalPrice": 5490.00,
+    "imageUrl": "https://www.dyson.com/dam/jcr:1234567890/v15-detect.png",
+    "imageUrls": [
+      "https://www.dyson.com/dam/jcr:1234567890/v15-detect.png"
+    ],
+    "tenantId": "dyson_store",
+    "tags": ["家电", "Dyson", "吸尘器", "无线"],
+    "status": "on_sale",
+    "salesCount": 5230,
+    "rating": 4.8,
+    "ratingCount": 3120,
+    "skus": [
+      {
+        "id": "sku_006_std",
+        "productId": "prod_006",
+        "specs": {"version": "标准版"},
+        "price": 4990.00,
+        "stock": 30
+      }
+    ]
+  },
+  {
+    "id": "prod_007",
+    "name": "Sony WH-1000XM5 头戴式降噪耳机",
+    "description": "Sony WH-1000XM5，业界领先降噪，30小时续航，Hi-Res音质",
+    "price": 2999.00,
+    "originalPrice": 3299.00,
+    "imageUrl": "https://www.sony.com/image/wh1000xm5.png",
+    "imageUrls": [
+      "https://www.sony.com/image/wh1000xm5.png"
+    ],
+    "tenantId": "sony_store",
+    "tags": ["耳机", "Sony", "降噪", "Hi-Res"],
+    "status": "on_sale",
+    "salesCount": 18230,
+    "rating": 4.9,
+    "ratingCount": 9230,
+    "skus": [
+      {
+        "id": "sku_007_black",
+        "productId": "prod_007",
+        "specs": {"color": "黑色"},
+        "price": 2999.00,
+        "stock": 60
+      },
+      {
+        "id": "sku_007_silver",
+        "productId": "prod_007",
+        "specs": {"color": "银色"},
+        "price": 2999.00,
+        "stock": 50
+      }
+    ]
+  },
+  {
+    "id": "prod_008",
+    "name": "iPad Pro 12.9英寸 M2芯片",
+    "description": "Apple iPad Pro 12.9英寸，M2芯片，Liquid Retina XDR显示屏，256GB",
+    "price": 8999.00,
+    "originalPrice": 9499.00,
+    "imageUrl": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-pro-12-9-select-202210?wid=2000&hei=2000&fmt=png-alpha&.v=1664413332684",
+    "imageUrls": [
+      "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-pro-12-9-select-202210?wid=2000&hei=2000&fmt=png-alpha&.v=1664413332684"
+    ],
+    "tenantId": "apple_store",
+    "tags": ["平板", "Apple", "M2", "专业"],
+    "status": "on_sale",
+    "salesCount": 6230,
+    "rating": 4.7,
+    "ratingCount": 3120,
+    "skus": [
+      {
+        "id": "sku_008_256",
+        "productId": "prod_008",
+        "specs": {"storage": "256GB", "color": "深空灰色"},
+        "price": 8999.00,
+        "stock": 40
+      },
+      {
+        "id": "sku_008_512",
+        "productId": "prod_008",
+        "specs": {"storage": "512GB", "color": "深空灰色"},
+        "price": 10999.00,
+        "stock": 25
+      }
+    ]
+  },
+  {
+    "id": "prod_009",
+    "name": "Tesla Model 3 后轮驱动版",
+    "description": "Tesla Model 3，后轮驱动，CLTC续航606公里，Autopilot自动辅助驾驶",
+    "price": 229900.00,
+    "originalPrice": 249900.00,
+    "imageUrl": "https://www.tesla.com/sites/default/files/model-3-social.png",
+    "imageUrls": [
+      "https://www.tesla.com/sites/default/files/model-3-social.png"
+    ],
+    "tenantId": "tesla_store",
+    "tags": ["汽车", "Tesla", "电动车", "智能"],
+    "status": "on_sale",
+    "salesCount": 1230,
+    "rating": 4.9,
+    "ratingCount": 820,
+    "skus": [
+      {
+        "id": "sku_009_std",
+        "productId": "prod_009",
+        "specs": {"version": "标准版", "color": "珍珠白"},
+        "price": 229900.00,
+        "stock": 10
+      }
+    ]
+  },
+  {
+    "id": "prod_010",
+    "name": "Canon EOS R6 Mark II 全画幅微单",
+    "description": "Canon EOS R6 Mark II，2420万像素，8K视频录制，双卡槽设计",
+    "price": 15999.00,
+    "originalPrice": 17999.00,
+    "imageUrl": "https://www.canon.com.cn/product/eosr6mark2/images/main.png",
+    "imageUrls": [
+      "https://www.canon.com.cn/product/eosr6mark2/images/main.png"
+    ],
+    "tenantId": "canon_store",
+    "tags": ["相机", "Canon", "全画幅", "微单"],
+    "status": "on_sale",
+    "salesCount": 3230,
+    "rating": 4.8,
+    "ratingCount": 1820,
+    "skus": [
+      {
+        "id": "sku_010_body",
+        "productId": "prod_010",
+        "specs": {"version": "单机身"},
+        "price": 15999.00,
+        "stock": 20
+      }
+    ]
+  }
+]
+

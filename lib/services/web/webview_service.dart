@@ -32,6 +32,79 @@ class WebViewService {
       )
       ..loadHtmlString(demoHtml);
   }
+
+  /// 创建用于加载 URL 的控制器
+  static WebViewController createUrlController({
+    required String url,
+    required void Function(double progress) onProgress,
+    required void Function(String message) onJsMessage,
+    required void Function(String url) onOpenThirdApp,
+  }) {
+    return WebViewController()
+      ..setJavaScriptMode(JavaScriptMode.unrestricted)
+      ..setNavigationDelegate(
+        NavigationDelegate(
+          onProgress: (p) => onProgress(p / 100),
+          onNavigationRequest: (request) {
+            if (request.url.startsWith('myapp://')) {
+              onOpenThirdApp(request.url);
+              return NavigationDecision.prevent;
+            }
+            return NavigationDecision.navigate;
+          },
+        ),
+      )
+      ..addJavaScriptChannel(
+        'App',
+        onMessageReceived: (message) => onJsMessage(message.message),
+      )
+      ..loadRequest(Uri.parse(url));
+  }
+
+  /// 创建用于加载 HTML 内容的控制器
+  static WebViewController createHtmlController({
+    required String htmlContent,
+    required void Function(double progress) onProgress,
+    required void Function(String message) onJsMessage,
+    required void Function(String url) onOpenThirdApp,
+  }) {
+    return WebViewController()
+      ..setJavaScriptMode(JavaScriptMode.unrestricted)
+      ..setNavigationDelegate(
+        NavigationDelegate(
+          onProgress: (p) => onProgress(p / 100),
+          onNavigationRequest: (request) {
+            if (request.url.startsWith('myapp://')) {
+              onOpenThirdApp(request.url);
+              return NavigationDecision.prevent;
+            }
+            return NavigationDecision.navigate;
+          },
+        ),
+      )
+      ..addJavaScriptChannel(
+        'App',
+        onMessageReceived: (message) => onJsMessage(message.message),
+      )
+      ..loadHtmlString(htmlContent);
+  }
+
+  /// 检查是否可以返回
+  static Future<bool> canGoBack(WebViewController controller) async {
+    return await controller.canGoBack();
+  }
+
+  /// 返回上一页
+  static Future<void> goBack(WebViewController controller) async {
+    if (await canGoBack(controller)) {
+      await controller.goBack();
+    }
+  }
+
+  /// 重新加载
+  static Future<void> reload(WebViewController controller) async {
+    await controller.reload();
+  }
 }
 
 // 内嵌 H5 内容
@@ -55,5 +128,3 @@ const String _html = '''
   </body>
 </html>
 ''';
-
-

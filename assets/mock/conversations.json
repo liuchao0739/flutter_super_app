@@ -1,0 +1,99 @@
+[
+  {
+    "id": "conv_001",
+    "type": "single",
+    "title": "张三",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/1.jpg",
+    "lastMessage": "好的，我明天过去",
+    "lastMessageType": 0,
+    "unreadCount": 2,
+    "lastMessageTime": "2024-01-15T14:30:00Z",
+    "isPinned": true,
+    "isMuted": false
+  },
+  {
+    "id": "conv_002",
+    "type": "group",
+    "title": "项目组（5）",
+    "avatarUrl": null,
+    "lastMessage": "[图片]",
+    "lastMessageType": 1,
+    "unreadCount": 5,
+    "lastMessageTime": "2024-01-15T13:20:00Z",
+    "isPinned": false,
+    "isMuted": false
+  },
+  {
+    "id": "conv_003",
+    "type": "single",
+    "title": "李四",
+    "avatarUrl": "https://randomuser.me/api/portraits/women/2.jpg",
+    "lastMessage": "谢谢你的帮助！",
+    "lastMessageType": 0,
+    "unreadCount": 0,
+    "lastMessageTime": "2024-01-15T12:15:00Z",
+    "isPinned": false,
+    "isMuted": false
+  },
+  {
+    "id": "conv_004",
+    "type": "single",
+    "title": "王五",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/3.jpg",
+    "lastMessage": "晚上一起吃饭吗？",
+    "lastMessageType": 0,
+    "unreadCount": 1,
+    "lastMessageTime": "2024-01-15T11:45:00Z",
+    "isPinned": false,
+    "isMuted": true
+  },
+  {
+    "id": "conv_005",
+    "type": "group",
+    "title": "家庭群（3）",
+    "avatarUrl": null,
+    "lastMessage": "记得买点菜回来",
+    "lastMessageType": 0,
+    "unreadCount": 0,
+    "lastMessageTime": "2024-01-15T10:30:00Z",
+    "isPinned": false,
+    "isMuted": false
+  },
+  {
+    "id": "conv_006",
+    "type": "single",
+    "title": "赵六",
+    "avatarUrl": "https://randomuser.me/api/portraits/women/4.jpg",
+    "lastMessage": "文件已发送",
+    "lastMessageType": 0,
+    "unreadCount": 0,
+    "lastMessageTime": "2024-01-14T18:20:00Z",
+    "isPinned": false,
+    "isMuted": false
+  },
+  {
+    "id": "conv_007",
+    "type": "single",
+    "title": "客服小美",
+    "avatarUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+    "lastMessage": "您好，有什么可以帮您的吗？",
+    "lastMessageType": 0,
+    "unreadCount": 0,
+    "lastMessageTime": "2024-01-14T15:10:00Z",
+    "isPinned": false,
+    "isMuted": false
+  },
+  {
+    "id": "conv_008",
+    "type": "group",
+    "title": "大学同学（12）",
+    "avatarUrl": null,
+    "lastMessage": "周末聚会，大家有空吗？",
+    "lastMessageType": 0,
+    "unreadCount": 3,
+    "lastMessageTime": "2024-01-14T14:00:00Z",
+    "isPinned": false,
+    "isMuted": false
+  }
+]
+
